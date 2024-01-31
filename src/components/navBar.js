@@ -1,8 +1,8 @@
 import React from "react";
 import profileImg from "./img/profile.jpg"
-import "./navbar.css";
+import "./navBar.css";
 
-function Navbar() {
+function NavBar() {
   return (
     <div className="navbar">
       <div class="navbar-container">
@@ -35,4 +35,4 @@ function Navbar() {
   );
 }
 
-export default Navbar;
+export default NavBar;
