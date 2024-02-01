@@ -1,11 +1,13 @@
 import React from "react";
 import featuredImg from "./img/f-t-1.png";
 import "./featuredContent.css";
+import movieListimg from "./img/1.jpeg";
+import "./movieList.css";
 
-function FeaturedContent() {
+function FeaturedMovieList() {
   return (
     <div class="container">
-      <div class="content-container">
+      <div className="content-container">
         <div class="featured-content">
           <img src={featuredImg} alt="" class="featured-title" />
           <p class="featured-desc">
@@ -21,4 +23,4 @@ function FeaturedContent() {
   );
 }
 
-export default FeaturedContent;
+export default FeaturedMovieList;
